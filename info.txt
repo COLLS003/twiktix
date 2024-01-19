@@ -1,0 +1,7 @@
+database connection
+
+database_name = qwiktix
+
+create user 'tix'@'%' identified by '1234'
+
+grant all on qwiktix.* to 'tix'@'%'
